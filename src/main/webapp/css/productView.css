@@ -1,0 +1,97 @@
+/* 공통 스타일 */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* 전체 레이아웃 */
+#wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 제목 스타일 */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* 버튼 스타일 */
+button, input[type="button"], input[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8a2be2;
+  background-color: #8a2be2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 테이블 스타일 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* 이미지 스타일 */
+img {
+  max-width: 350%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+/* "메인화면으로" 가는 버튼 스타일 */
+#main-button {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 110px;
+  background-image: url(../images/kurly_logo.jpg);
+  background-size: cover;
+  text-indent: -9999px;
+}
+
+#main-button:hover {
+  opacity: 0.8;
+}
+여기에 
+.parent {
+  text-align: center;
+}
+
+/* 버튼 스타일 */
+button, input[type="button"], input[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #8a2be2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,139 @@
+/* 전체 페이지 스타일 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #ffffff; /* 하얀색 배경색 */
+  text-align: center; /* 가운데 정렬 */
+}
+
+/* 버튼 스타일 */
+.button-wrapper {
+  text-align: center;
+  margin: 10px 0;
+  
+}
+
+#main-button {
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 110px;
+  background-image: url(../images/kurly_logo.jpg);
+  background-size: cover;
+  text-indent: -9999px;
+}
+
+/* 테이블 스타일 */
+.list {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #ffffff; /* 하얀색 배경색 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.record:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #8a2be2;
+  color: #fff;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* 상품 상세 페이지 스타일 */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff; /* 하얀색 배경색 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center; 
+}
+
+table th {
+  width: 30%;
+}
+
+table td {
+  text-align: center;
+}
+
+#product_image {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+#product_content {
+  white-space: pre-wrap;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+#count {
+  width: 60px;
+}
+
+#total_price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+.buttons {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.buttons input[type="button"] {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons input[type="button"]:hover {
+  background-color: #3e8e41;
+}
